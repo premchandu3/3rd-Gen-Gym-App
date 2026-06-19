@@ -5,7 +5,7 @@ export default function ProductsHero() {
     <section className="bg-[#010101] overflow-hidden">
       <div className="relative w-full h-[260px] sm:h-[420px] lg:h-[652px]">
 
-        {/* Background */}
+        
         <Image
           src="/products-bg.png"
           alt="Products Background"
@@ -14,13 +14,13 @@ export default function ProductsHero() {
           className="object-cover"
         />
 
-        {/* Dark Overlay */}
+        
         <div className="absolute inset-0 bg-black/65 z-10" />
 
-        {/* Red Glow */}
+        
         <div className="absolute inset-0 z-20 bg-gradient-to-r from-[#C50D3E]/25 via-[#C50D3E]/8 to-transparent" />
 
-        {/* Right Equipment Image */}
+        
         <div
           className="
             absolute
@@ -45,7 +45,7 @@ export default function ProductsHero() {
           />
         </div>
 
-        {/* Title */}
+        
         <div className="absolute inset-0 z-40 flex items-center">
           <div className="w-full max-w-[1440px] mx-auto">
 
