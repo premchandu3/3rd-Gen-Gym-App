@@ -53,7 +53,6 @@ export default function TestimonialSection() {
     <section className="bg-white py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Small Heading */}
         <div className="flex items-center justify-center gap-4 mb-4">
           <div className="w-12 h-[2px] bg-[#C50D3E]" />
           <span className="text-[#C50D3E] font-medium">
@@ -62,13 +61,11 @@ export default function TestimonialSection() {
           <div className="w-12 h-[2px] bg-[#C50D3E]" />
         </div>
 
-        {/* Main Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           Real <span className="text-[#C50D3E]">Stories.</span>{" "}
           Honest <span className="text-[#C50D3E]">Results.</span>
         </h2>
 
-        {/* Animated Testimonial Card */}
         <div className="max-w-5xl mx-auto">
 
           <AnimatePresence mode="wait">
@@ -102,7 +99,6 @@ export default function TestimonialSection() {
 
         </div>
 
-        {/* Buttons */}
         <div className="flex justify-center gap-5 mt-10">
 
           <button
