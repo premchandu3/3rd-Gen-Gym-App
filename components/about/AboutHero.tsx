@@ -4,7 +4,6 @@ export default function AboutHero() {
   return (
     <section className="relative h-[320px] md:h-[420px] lg:h-[630px] overflow-hidden">
 
-   
       <Image
         src="/about/about-bg.png"
         alt="About Background"
@@ -65,8 +64,4 @@ export default function AboutHero() {
     </section>
   );
 }
-
-
-
-
 

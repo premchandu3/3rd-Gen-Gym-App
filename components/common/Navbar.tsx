@@ -26,13 +26,13 @@ export default function Navbar() {
 
           
           <nav className="hidden lg:flex items-center gap-8 text-white font-medium">
-            <Link href="/home" target="_blank">Home</Link>
-            <Link href="/about" target="_blank">About</Link>
-            <Link href="/services" target="_blank">Services</Link>
-            <Link href="/products" target="_blank">Products</Link>
-            <Link href="/career" target="_blank">Career</Link>
-            <Link href="/franchise" target="_blank">Franchise</Link>
-            <Link href="/contact" target="_blank">Contact</Link>
+            <Link href="/home" >Home</Link>
+            <Link href="/about" >About</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/products">Products</Link>
+            <Link href="/career">Career</Link>
+            <Link href="/franchise">Franchise</Link>
+            <Link href="/contact" >Contact</Link>
           </nav>
 
          
