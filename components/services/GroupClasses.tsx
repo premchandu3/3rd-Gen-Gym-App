@@ -1,0 +1,116 @@
+import Image from "next/image";
+
+export default function GroupClasses() {
+  return (
+    <section className="bg-white py-10">
+      <div className="max-w-6xl mx-auto px-6">
+
+        <div className="grid lg:grid-cols-[420px_1fr] gap-12 items-center">
+
+          <div>
+            <Image
+              src="/group-classes.png"
+              alt="Group Classes"
+              width={420}
+              height={500}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+
+          <div>
+
+            <div className="flex items-center gap-3 mb-6">
+              <Image
+                src="/group-icon.png"
+                alt="Group Classes"
+                width={24}
+                height={24}
+              />
+
+              <div className="h-[2px] w-56 bg-gradient-to-r from-[#C50D3E] to-transparent" />
+            </div>
+
+            <h2 className="text-5xl font-extrabold leading-tight mb-8">
+              Group{" "}
+              <span className="text-[#C50D3E]">
+                Classes
+              </span>
+            </h2>
+
+            <h3 className="font-bold text-lg mb-2">
+              Who Its For
+            </h3>
+
+            <p className="text-gray-500 mb-8 max-w-md">
+              Great for those who enjoy training in a motivating,
+              social environment.
+            </p>
+
+            <h3 className="font-bold text-lg mb-4">
+              Benefits
+            </h3>
+
+            <ul className="space-y-3 text-gray-600 mb-8">
+
+              <li className="flex items-center gap-3">
+                <Image
+                  src="/check-icon.png"
+                  alt=""
+                  width={18}
+                  height={18}
+                />
+                <span>High motivation & energy</span>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <Image
+                  src="/check-icon.png"
+                  alt=""
+                  width={18}
+                  height={18}
+                />
+                <span>Structured group workouts</span>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <Image
+                  src="/check-icon.png"
+                  alt=""
+                  width={18}
+                  height={18}
+                />
+                <span>Improves consistency</span>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <Image
+                  src="/check-icon.png"
+                  alt=""
+                  width={18}
+                  height={18}
+                />
+                <span>Fun & engaging sessions</span>
+              </li>
+
+            </ul>
+
+            <h3 className="font-bold text-lg mb-2">
+              Duration / Intensity
+            </h3>
+
+            <p className="text-gray-500 mb-8">
+              45–60 min per session • Moderate to High
+            </p>
+
+            <button className="bg-[#C50D3E] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition cursor-pointer">
+              Enquire Now →
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
