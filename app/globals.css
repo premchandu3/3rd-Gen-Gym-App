@@ -71,3 +71,22 @@ html {
   min-width: max-content;
   animation: marquee 20s linear infinite;
 }
+
+
+@keyframes servicesScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.services-slider {
+  animation: servicesScroll 30s linear infinite;
+}
+
+.services-slider:hover {
+  animation-play-state: paused;
+}
